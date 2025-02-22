@@ -1,15 +1,21 @@
 #include <stdio.h>
 
 int main(){
-    printf("Países!");
-    printf("Minas Gerais!");
-    printf('Mais de 5 mil habitantes que visitam Minas!');
-   int ano =("20,54 milhões");
+    printf("Países!\n");
+    printf("Minas Gerais!\n");
+    printf("Mais de 5 mil habitantes que visitam Minas!\n");
 
+    int ano = 2054;
+    printf("Ano: %d\n", ano);
 
-   char[18] área
-   scanf("%a" 586,528 milhões)
-   scanf("%p" 272,3 bilhões)
-   scanf("%d" 31)
+    char area[] = "586,528 milhões";
+    printf("Área: %s\n", area);
+
+    double pib = 272.3;
+    printf("PIB: %.1f bilhões\n", pib);
+
+    int cidades = 31;
+    printf("Cidades: %d\n", cidades);
    
-return 0 
+    return 0;
+}
